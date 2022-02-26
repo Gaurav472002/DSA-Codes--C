@@ -109,7 +109,7 @@ int main()
     // printf("%d\n",peek(sp,2));
 
     // Printing values from the stack
-    for (int j = 1; j <= sp->top + 1; j++)
+    for (int j = 0; j <= sp->top ; j++)
     {
         printf("The value at position %d is %d\n", j, peek(sp, j));
     }

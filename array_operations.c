@@ -36,7 +36,7 @@ int main() {
     display(arr,6);
     
     delete_arr(arr,6,5);
-    display(arr,5);
+    display(arr,6);
     
     return 0;
 }
