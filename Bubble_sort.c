@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>  /// Time complexity    BigO(n^2)
 
 void printarray(int*arr,int n){  //function to print the elments of the array
     for(int i=0;i<n;i++){
